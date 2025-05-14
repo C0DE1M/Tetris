@@ -1,0 +1,47 @@
+Development Log:
+
+Beta 0.0
+	Features:
+		- Infinite Hold Block
+		- No Wall Kick
+		- Only line clear text displayed
+
+Beta 0.1
+	New Features:
+		- Hold Block functionality completed
+	Issues:
+		- Game does not end automatically; player must end it manually
+
+Bug 0001
+	Description:
+		- If the block cannot move down, pressing down and left/right at the same time prevents horizontal movement
+
+Version 1.0
+	New Features:
+		- Added Game Over Menu
+		- Added Settings Menu (custom key bindings and block movement speed)
+		- Implemented SRS rotation system
+		- Added T-spin detection logic
+		- Score and Level system
+		- Ghost Block display added
+	Fixes:
+		- Fixed Bug 0001
+
+Bug 0002
+	Description:
+		- Occasionally two tetriminos spawn at the same time; cause unknown
+
+Bug 0003
+	Description:
+		- Player’s personal best score fails to load
+
+Version 1.1
+	New Features:
+		- Line Clear, T-spin, and Perfect Clear text indicators
+		- Perfect Clear score tracking added (originally intended for v1.0)
+		- Combo and B2B (Back-to-Back) counters added
+		- Current game score displayed on Game Over screen
+		- UI updates
+		- Custom settings can now be saved locally and automatically applied when the game restarts
+	Fixes:
+		- Fixed Bug 0003
