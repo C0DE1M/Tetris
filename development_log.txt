@@ -45,3 +45,6 @@ Version 1.1
 		- Custom settings can now be saved locally and automatically applied when the game restarts
 	Fixes:
 		- Fixed Bug 0003
+Version 1.2
+	New Features:
+		- Prevents users from assigning the same key to multiple actions in the key binding settings
